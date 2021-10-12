@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <title>Covid-19 Relief Fund</title>
+</head>
+<body>
+    <div class="title-bar">
+        <div class="Logo">
+            <img class="logo" src="Images/mainlogo.png">
+        </div>
+        <div class="home title-bar-icon"><a href="#idHome-content">Home</a></div>
+        <div class="about title-bar-icon"><a href="#idabout-content">About</a></div>
+        <div class="gallery title-bar-icon"><a href="#idgallery">Gallery</a></div>
+        <div class="contact title-bar-icon"><a href="#idcontact-us">Contact Us</a></div>
+        <div class="donate title-button-icon"><button class="button"><a class="Donate" href="https://rzp.io/l/RdlwxXOaM">Donate Now</a> </button></div>
+    </div>
+    <div class="Home-content" id="idHome-content">
+        <img class="mySlides" src="Images/Banner1.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Banner2.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Banner3.jpg" style="width:100%">
+        <img class="mySlides" src="Images/Banner4.jpg" style="width:100%">
+      </div>
+      <script>var myIndex = 0;
+        carousel();
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }</script>
+
+    <div class="about-content" id="idabout-content">
+        <h1 class="h1-tag">Donate For Covid-19 (CoronaVirus) Relief Fund</h1>
+        <div class="content">
+            <article>The second wave of Corona Virus has brought the world on its knees and has yet again created an international pandemic emergency situation. With the spread of the Corona Virus, many families are stuck inside their homes and hospital wards that too sick and quarantined. We have taken a pledge to help the families struck by the pandemic by offering food and medical services in this time of distress. People from all across the country are coming forward to help and we are not far behind.
+            </article>
+            <div class="food-img">
+                <img src="Images/Food-distribution.webp">
+            </div>
+            </div>
+            <div class="more-content">
+                <img class="banner" src="Images/Banner4.jpg">
+                <div class="Relief-measures">
+                <h1 class="heading">Relief measures for COVID 19 distressed</h1>
+                <h3>1.Providing Cooked Food & Ration for Needy</h3>
+                <h3>2.Providing free of cost oxygen cylinders</h3>
+                <h3>3.Providing Masks and medicine</h3>
+                <h3>4.Providing Hydraulic beds to patients</h3>
+                <h3>5.Sanitizing areas that are most vulnerable</h3>
+                </div>
+            </div>
+    </div>
+    <h1 class="Gallery-heading" id="idgallery">Gallery</h1>
+    <div class="gallery">
+        
+        <img src="Images/pic1.jpg">
+        <img src="Images/pic2.jpg">
+        <img src="Images/pic3.jpg">
+        <img src="Images/pic4.jpeg">
+        <img src="Images/pic5.webp">
+        <img src="Images/pic6.jpg">
+        <img src="Images/pic7.jpg">
+        <img src="Images/pic8.jpg">
+        <img src="Images/pic9.webp">
+        <img src="Images/pic10.webp">
+    </div>
+    <div class="contact-us" id="idcontact-us">
+      <h1>Contact Us</h1>
+      <div class="contact-icons">
+      <div class="phone">
+      <div class="material-icons call-icon icons">phone_in_talk</div>
+      <div class="icons">+916342719024</div>
+      </div>
+
+      <div class="mail">
+          <div class="material-icons Mail-icon icons">email</div>
+          <div class="icons">donation@gmail.com</div>
+      </div>
+
+      <div class="whatsapp">
+          <div class="material-icons whatsapp-icon icons">whatsapp</div>
+          <div class="icons">+919999999999</div>
+      </div>
+      </div>
+      </div>
+      <div class="Copyright-footer">
+          <!-- <div class="Copyright">Created By Sarthak Maheshwari |</div>
+          <i class="material-icons" style="color: rgb(92, 86, 211);">copyright </i>
+          <div class="Copyright">2021 All rights reserved.</div> -->
+          <div class="Copyright"> Created By Sarthak Maheshwari | <span class="far fa-copyright"></span> 2021 All rights reserved.</div>
+      </div>
+      
+</body>
+</html>
